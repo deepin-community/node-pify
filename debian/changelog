@@ -1,3 +1,13 @@
+node-pify (5.0.0+~cs5.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * New upstream version 5.0.0+~cs5.0.1: updates typescript declarations
+
+ -- Yadd <yadd@debian.org>  Sun, 02 Jan 2022 09:51:38 +0100
+
 node-pify (5.0.0+~cs5.0.0-1) unstable; urgency=medium
 
   * Team upload

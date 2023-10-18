@@ -7,7 +7,7 @@ Build-Depends: debhelper-compat (= 13)
  , dh-sequence-nodejs
  , node-pinkie-promise <!nocheck>
  , node-tape <!nocheck>
-Standards-Version: 4.5.1
+Standards-Version: 4.6.0
 Vcs-Browser: https://salsa.debian.org/js-team/node-pify
 Vcs-Git: https://salsa.debian.org/js-team/node-pify.git
 Homepage: https://github.com/sindresorhus/pify
@@ -17,6 +17,7 @@ Rules-Requires-Root: no
 Package: node-pify
 Architecture: all
 Depends: ${misc:Depends}
+Provides: ${nodejs:Provides}
 Multi-Arch: foreign
 Description: promisify a callback-style function
  pify permits ont to transform a callback-style function into a
